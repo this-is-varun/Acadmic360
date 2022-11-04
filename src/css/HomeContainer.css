@@ -1,0 +1,16 @@
+.backdrop_homecontainer{
+    height: 92vh;
+    width: 100%;
+     display:flex;
+    justify-content: center;
+}
+.main_home{
+    height: 100%;
+    width: 80%;
+ }
+
+@media only screen and (max-width: 600px){
+    .main_home{
+         width:98%;
+     }
+}

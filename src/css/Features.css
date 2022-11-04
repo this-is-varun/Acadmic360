@@ -1,0 +1,15 @@
+.backdrop_features{
+    height: auto;
+    width: 100%;
+ }
+
+.Feature_title{
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.feather_box{
+    padding: 1rem;
+}

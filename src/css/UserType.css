@@ -1,0 +1,42 @@
+.backdrop_usertype{
+    height: 25vh;
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    height: 90%;
+    width: 90%;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.student{
+    height: 90%;
+    width: 25%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 1rem;
+ }
+.teacher{
+    height: 90%;
+    width: 25%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 1rem;
+
+  }
+
+  i{
+      font-size: 1.6rem;
+  }
+
+  @media only screen and (max-width: 600px){
+    .student{
+         width: 45%;
+        
+     }
+    .teacher{
+         width: 45%;
+ 
+      }
+}
