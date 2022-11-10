@@ -1,5 +1,9 @@
 import React from 'react'
-import welcome1 from "../img/welcome1.jpeg"
+import welcome1 from "../img/welcome1.jpg"
+import welcome2 from "../img/welcome2.jpg"
+import welcome3 from "../img/welcome3.jpg"
+
+
 import "../css/Welcome.css"
 
 const Welcome = () => {
@@ -21,14 +25,14 @@ const Welcome = () => {
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src={welcome1} class="d-block w-100" alt="..."/>
+      <img src={welcome2} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={welcome1} class="d-block w-100" alt="..."/>
+      <img src={welcome3} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>

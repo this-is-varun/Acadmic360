@@ -17,7 +17,7 @@ const Header = () => {
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Features</a>
@@ -26,11 +26,10 @@ const Header = () => {
           <a class="nav-link" href="#">Team</a>
         </li>  
         <li class="nav-item">
-          <a class="nav-link" href="#">Register</a>
+          <a class="nav-link" href="studentregistration">Register</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
-        </li>  <li class="nav-item">
+        
+         <li class="nav-item">
           <a class="nav-link" href="#">Join Us</a>
         </li>
         

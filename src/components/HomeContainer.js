@@ -16,8 +16,7 @@ const HomeContainer = () => {
         <UserType/>
         <Features/>
         <Team/>
-        <Footer/>
-       </div>
+        </div>
       </div>
       
     </>
