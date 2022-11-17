@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import StudentRegistration from "./pages/StudentRegistration";
 import TeacherRegistration from './pages/TeacherRegistration'
 import TeacherLogin from "./pages/TeacherLogin";
+import TeacherDashboard from "./Teacher/TeacherDashboard";
+import Fee from "./components/Fee";
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
 
         <Route path="/studentregistration" element={<StudentRegistration />}/>
         <Route path="/teacherregistration" element={<TeacherRegistration />}/>
+
+//after teacher login //
+        <Route path="/teacherdashboard" element={<TeacherDashboard />}/>
+        <Route path="/fee" element={<Fee />}/>
 
 
       </Routes>

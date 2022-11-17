@@ -1,0 +1,23 @@
+.Fee_backdrop{
+    height: auto;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.Fee_center{
+    height: auto;
+    width: 98%;
+    background-color: blue;
+    margin: 1rem;
+}
+.std_{
+    height: auto;
+    width: 100%;
+    background-color: brown;
+}
+table th,tr,td{
+    border: 1px solid black;
+    padding: 1rem;
+}

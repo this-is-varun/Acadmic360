@@ -26,10 +26,7 @@ const StudentLogin = () => {
           </div>
    </form>
         </div>
-
     </div>
-    
-    
   </div>
   </div>
       </>

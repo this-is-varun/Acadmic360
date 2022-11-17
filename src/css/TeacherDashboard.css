@@ -1,0 +1,41 @@
+.Tdashboard_backgrond{
+    height: auto;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tdashboard_center{
+    width: 80%;
+    height: auto;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Tdashboard_welcome{
+    height: 50vh;
+    width: 90%;
+    background-color: brown;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Teacher_service{
+    height: 30vh;
+    width: 90%;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.service{
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;
+    background-color: crimson;
+}

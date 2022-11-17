@@ -10,7 +10,7 @@ const Header = () => {
     <>
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Acadmic 360</a>
+    <a class="navbar-brand" href="/">Acadmic 360</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,14 +24,30 @@ const Header = () => {
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Team</a>
-        </li>  
+        </li> 
+
         <li class="nav-item">
-          <a class="nav-link" href="studentregistration">Register</a>
-        </li>
-        
+        <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Ragister
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="/studentregistration">Ragister as Student</a></li>
+    <li><a class="dropdown-item" href="/teacherregistration">Ragister as Teacher</a></li>
+   </ul>
+</div>        
+</li>
+       
          <li class="nav-item">
-          <a class="nav-link" href="#">Join Us</a>
-        </li>
+         <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+login
+  </button>
+  <ul class="dropdown-menu">
+     <li><a class="dropdown-item" href="/studentlogin">Login as Student</a></li>
+    <li><a class="dropdown-item" href="/teacherlogin">Login as Teacher</a></li>
+  </ul>
+</div>        </li>
         
       
       </ul>
