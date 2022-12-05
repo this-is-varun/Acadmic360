@@ -8,6 +8,7 @@ import TeacherRegistration from './pages/TeacherRegistration'
 import TeacherLogin from "./pages/TeacherLogin";
 import TeacherDashboard from "./Teacher/TeacherDashboard";
 import Fee from "./components/Fee";
+import AttendenceMarking from './Teacher/AttendenceMarking'
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
 //after teacher login //
         <Route path="/teacherdashboard" element={<TeacherDashboard />}/>
         <Route path="/fee" element={<Fee />}/>
+        <Route path="/attendencemarking" element={<AttendenceMarking/>}/>
+
 
 
       </Routes>

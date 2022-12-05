@@ -11,7 +11,6 @@ const Features = () => {
        <h1 ><b>Features</b></h1>
        
        </div>
-        
         <div className='feather_box'>
         <h3>Attendance</h3>
           <p>Teachfer can mark the Attendance anytime during class on one click </p>
@@ -36,10 +35,7 @@ const Features = () => {
           <p>Parent will have access to check the attandance of the student</p>
           <hr />
         </div>
-        
-
-
-      
+              
       </div>
     </>
   )
